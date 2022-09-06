@@ -1,0 +1,31 @@
+.my-date-picker{
+    width: 100%;
+    background: #262626;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px 15px;
+}
+
+.my-date-picker::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white !important;
+}
+.my-date-picker:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white !important;
+    opacity:  1;
+}
+.my-date-picker::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white !important;
+    opacity:  1;
+}
+.my-date-picker:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+}
+.my-date-picker::-ms-input-placeholder { /* Microsoft Edge */
+    color: white !important;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle{
+    display: none;
+}

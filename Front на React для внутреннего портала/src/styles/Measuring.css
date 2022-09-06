@@ -1,0 +1,18 @@
+#measuring .clear-measuring{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+#measuring .times-room{
+    float: right;
+    cursor: pointer;
+    position: relative;
+    margin-top: -44px;
+    margin-right: -5px;
+    color: #f93154;
+}
+
+#ChoiceObjectData .form-check,
+#ChoiceObjectData .h4{
+    margin: 1rem 0;
+}
