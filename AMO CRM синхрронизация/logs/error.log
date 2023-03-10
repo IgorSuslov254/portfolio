@@ -1,0 +1,71 @@
+2022-12-24 19:05:24 Array
+(
+    [0] => Ошибка синхронизации c AmoCrm
+    [1] => Array
+        (
+            [0] => 
+            [1] => {"validation-errors":[{"request_id":"0","errors":[{"code":"NotBlank","path":"params.text","detail":"This value should not be blank."},{"code":"TooShort","path":"params.text","detail":"This value is too short. It should have 1 character or more."}]}],"title":"Bad Request","type":"https://httpstatus.es/400","status":400,"detail":"Request validation failed"}
+            [2] => Array
+                (
+                    [type] => createNotes
+                    [url] => https://89181618971.amocrm.ru/api/v4/leads/notes
+                    [headers] => Array
+                        (
+                            [0] => Content-Type: application/json
+                            [1] => Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJhZTI4NDAwZjRkMmUzOGFlZTE5MzZmYTkxOTM0OTNmNjM5YjRlZWE4OTJkMjMyYTA5N2MwOWUwYjkwYTRlZjQ5YThjNWNmYmIzNzNmYWVjIn0.eyJhdWQiOiJkMDc5MGJjMC0zN2FmLTQzNGItYmJkOS03MmEyZDZiMWM3MjgiLCJqdGkiOiJiYWUyODQwMGY0ZDJlMzhhZWUxOTM2ZmE5MTkzNDkzZjYzOWI0ZWVhODkyZDIzMmEwOTdjMDllMGI5MGE0ZWY0OWE4YzVjZmJiMzczZmFlYyIsImlhdCI6MTY3MTgyNDI2OSwibmJmIjoxNjcxODI0MjY5LCJleHAiOjE2NzE5MTA2NjksInN1YiI6IjU4NjQ0MDQiLCJhY2NvdW50X2lkIjoyODgwOTk1OCwiYmFzZV9kb21haW4iOiJhbW9jcm0ucnUiLCJzY29wZXMiOlsicHVzaF9ub3RpZmljYXRpb25zIiwiZmlsZXMiLCJjcm0iLCJmaWxlc19kZWxldGUiLCJub3RpZmljYXRpb25zIl19.nOujB1j2Jj-DhEWRZ7H3IcXgC2H7dwixr7TlbGDVp1pYWDdBhRdbHYRkcW2WIKkLCeu1nHCD0p45KN9drRJgv1RNKdTWyGmAnVHs9TkQKwanwy5pl1jdBSMP3VgwQwPKMy3cmhSaUFL3xARSZse_Di1YZ6HMSrNHyyhO4RL8o_DmBmEUg_9UkQfg1MCkM-PLguyf3_tgHfSsZjvci-GvB3ITgulhvA_trxjQaDq1_3gzSlbsqtWPmzY-rcz0dnGRMXJsZg2Dj5VeBptw107rtccVdPXnX9xHW_3mMJgaIHa9SrOCy9hLJyyOEK4wDb03CT1F2N82kfMRZl3qS03DRw
+                        )
+
+                    [data] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [entity_id] => 21645193
+                                    [note_type] => common
+                                    [params] => Array
+                                        (
+                                            [text] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => 400
+)
+
+2023-02-14 19:27:31 Array
+(
+    [0] => Ошибка синхронизации c AmoCrm
+    [1] => Array
+        (
+            [0] => 
+            [1] => {"title":"Некорректный клиент","type":"https://developers.amocrm.ru/v3/errors/OAuthProblemJson","status":401,"detail":"Авторизация клиента не прошла"}
+            [2] => Array
+                (
+                    [type] => getToken
+                    [url] => https://89181618971.amocrm.ru/oauth2/access_token
+                    [headers] => Array
+                        (
+                            [0] => Content-Type:application/json
+                        )
+
+                    [data] => Array
+                        (
+                            [client_id] => d0790bc0-37af-434b-bbd9-72a2d6b1c728
+                            [client_secret] => FbRSa71V1VZ91XXCoSQoNAyGkEEQJgAa69c1usgznd9LaqaHm1K08KOZAWlzAzGZ
+                            [grant_type] => refresh_token
+                            [redirect_uri] => https://lasclinic.test/AMO_CRM/amoCrm.php
+                            [refresh_token] => def502009636e6c4c1c9aaa58eb0112162f6d1739a97506a699ea828b5844dedb7adc0ae5b3e1960800c9fd5e334ead21ffa75e7e7474904226abf5709f10a5839cd82c11f8d6f86235280e75805fb871cc54c0b752c11343ad7a5e371d121906bf19c429972d305b23795209722175df9e9e07df0b671573db9679bb86c0ae3f21268d9a9197626b28643366bba8b17a4db54734df2ee7e66f2e8bd68a8bb7177a0546e19be2222d8dce15c838bfee17f898c451ab25f33adb8d7d0ea42f4f8e3fba919758601bed5913e9b8d6b5ebf855f6f8b164e4c013ae7db635625cc67cd61379c3c064e2c807b809c6ba03a8c812c461dfa9766968e3965be9140ac5b0eb2c506fbc5c1bf258f511540f14ba17049ddeacb343266a2221673b58918b1f4c904c0efbb92990020def765181f0265e1abf742be6a49103d228cb89e8200866a6cd31e7016e5c33bd96cc15aa26846a6d07bd6d592cf9777ac75f10ca8d911092c3a0e4912964a135e7c8af9ab18eec0f957c04bf517ec3b988cb1c379571bbe3aab1375119b92672c5c6d12c767f079428f0af6bf78c41772bf2951eb32d6cc26f733d6ab1076a185f95911a95925667bd38a12a5a5bf925df1b7592dca026ba40fe95003eda459e91953611c4612dc0e4733d99da31bc3e98e7e2dfcebb3
+                        )
+
+                )
+
+        )
+
+    [2] => 401
+)
+

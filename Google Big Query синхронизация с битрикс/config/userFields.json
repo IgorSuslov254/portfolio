@@ -1,0 +1,134 @@
+{
+  "LOGIN": {
+    "name": "Login",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "ACTIVE": {
+    "name": "Activo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "NAME": {
+    "name": "Primer_nombre",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "LAST_NAME": {
+    "name": "Apellido",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "SECOND_NAME": {
+    "name": "Segundo_Nombre",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "EMAIL": {
+    "name": "Email",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "LAST_LOGIN": {
+    "name": "Ultima_conexion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "DATE_REGISTER": {
+    "name": "Fecha_de_Resgistro",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "ID": {
+    "name": "ID",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "fields": {}
+  },
+  "PERSONAL_BIRTHDAY": {
+    "name": "Fecha_de_nacimiento",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_WWW": {
+    "name": "Pagina_WEB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_GENDER": {
+    "name": "Sexo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_PHONE": {
+    "name": "Telefono_privado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_MOBILE": {
+    "name": "Telefono_celular",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_CITY": {
+    "name": "Ciudad",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "PERSONAL_STREET": {
+    "name": "Calle",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "WORK_COMPANY": {
+    "name": "Compania",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "WORK_POSITION": {
+    "name": "Cargo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_PHONE_INNER": {
+    "name": "Codigo_externo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_DEPARTMENT": {
+    "name": "UF_DEPARTMENT",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_DEPARTMENT_NAME": {
+    "name": "UF_DEPARTMENT_NAME",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_EMPLOYMENT_DATE": {
+    "name": "UF_EMPLOYMENT_DATE",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  }
+}

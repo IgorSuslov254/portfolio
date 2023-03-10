@@ -1,0 +1,1286 @@
+{
+  "ID": {
+    "name": "ID",
+    "mode": "NULLABLE",
+    "type": "INTEGER",
+    "fields": {}
+  },
+  "CATEGORY_ID": {
+    "name": "Pipeline",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CATEGORY_NAME": {
+    "name": "Pipeline_name",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "IS_RECURRING": {
+    "name": "Negociacion_repetida",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "IS_RETURN_CUSTOMER": {
+    "name": "Repetir_consulta",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "STAGE_ID": {
+    "name": "Etapa",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "ASSIGNED_BY_ID": {
+    "name": "Responsable",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "TITLE": {
+    "name": "Titulo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "SOURCE_ID": {
+    "name": "Origen",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "SOURCE_DESCRIPTION": {
+    "name": "Origen_de_la_informacion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "OPPORTUNITY": {
+    "name": "Ingreso",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CURRENCY_ID": {
+    "name": "Moneda",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "COMPANY_ID": {
+    "name": "Compania",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CONTACT_ID": {
+    "name": "Contacto",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CLOSEDATE": {
+    "name": "Cerrado",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "DATE_CREATE": {
+    "name": "Creado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CREATED_BY_ID": {
+    "name": "Creado_por",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "DATE_MODIFY": {
+    "name": "Modificado",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "MOVED_BY_ID": {
+    "name": "Modificado_por",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "BEGINDATE": {
+    "name": "Fecha_de_inicio",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "CLOSEDATE": {
+    "name": "Fecha_de_cierre",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "WEBFORM_ID": {
+    "name": "Creado_por_el_formulario_del_CRM",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UTM_SOURCE": {
+    "name": "UTM_Source",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UTM_MEDIUM": {
+    "name": "UTM_Medium",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UTM_CAMPAIGN": {
+    "name": "UTM_Campaign",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UTM_CONTENT": {
+    "name": "UTM_Content",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UTM_TERM": {
+    "name": "UTM_Term",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62695CBCBE1F9": {
+    "name": "Tipo_inmueble",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62695CBD6D4DA": {
+    "name": "Contactado_por_ultima_vez",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62695CBDD733F": {
+    "name": "Fecha_de_creacion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651216624016": {
+    "name": "Propietario_del_negocio_eliminar",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651216783535": {
+    "name": "Tipo_de_negocio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651216811327": {
+    "name": "Prioridad",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651216885884": {
+    "name": "Nombre_de_constructora_Inmobiliaria_eliminar",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651217508081": {
+    "name": "Descripcion_de_la_Venta",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651217596725": {
+    "name": "Fecha_de_asignacion_al_propietario",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651217650829": {
+    "name": "Fecha_de_la_ultima_actividad",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651217834696": {
+    "name": "Fecha_de_ultima_modificacion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651218206492": {
+    "name": "Valor_en_la_moneda_de_la_empresa",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651218336233": {
+    "name": "Categoria_prevista",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651218468908": {
+    "name": "Equipo_de_HubSpot",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651218670335": {
+    "name": "ID_del_negocio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651219294002": {
+    "name": "Valor_ponderado",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651219312803": {
+    "name": "Valor_ponderado_en_moneda_de_la_empresa",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651219423225": {
+    "name": "Datos_de_fuente_original_1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651219444940": {
+    "name": "Datos_de_fuente_original_2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627164E163913": {
+    "name": "Perfilador",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62725004D635A": {
+    "name": "Analisis_exhaustivo_de_fuente_mas_reciente_1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62725004E35B4": {
+    "name": "Nombre_de_la_empresa_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62725004F02FE": {
+    "name": "Analisis_exhaustivo_de_fuente_mas_reciente_2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651669486210": {
+    "name": "Deal_ID",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651670342825": {
+    "name": "Motivo_de_cierres_ganados",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651672483060": {
+    "name": "Valor_del_negocio_previsto_en_la_moneda_local",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651672687355": {
+    "name": "Fecha_de_Entrega_Inmueble",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651672835614": {
+    "name": "Fecha_de_cierre2",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651673046899": {
+    "name": "Motivo_de_cierres_perdidos",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651673185692": {
+    "name": "Fecha_de_la_siguiente_actividad",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_1651673931514": {
+    "name": "Valor_del_negocio_previsto",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651673994858": {
+    "name": "Probabilidad_de_la_etapa_del_negocio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651674143011": {
+    "name": "Tipo_de_Inmueble_eliminar",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651674281574": {
+    "name": "Descripcion_de_la_oferta",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651674349473": {
+    "name": "Monto_en_la_moneda_de_la_empresa",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651674372834": {
+    "name": "Associated_Contact_IDs",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6275213377FEC": {
+    "name": "Link_al_Anunciante_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6275213385374": {
+    "name": "Ciudad_del_anuncio_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627521339FB05": {
+    "name": "Tipo_de_operacion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62752133C9A32": {
+    "name": "Hora_de_la_ultima_sesion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62752133D73DB": {
+    "name": "Hora_de_la_primera_sesion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_627521344F6B6": {
+    "name": "Primera_conversion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651846482628": {
+    "name": "Porcentaje_de_la_Comision",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1651846570170": {
+    "name": "Comision_autom",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1652194288": {
+    "name": "Equipo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F208DAC3": {
+    "name": "Ultima_pagina_vista",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F209AE6A": {
+    "name": "Primera_pagina_vista",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F21025C5": {
+    "name": "Fecha_en_que_se_convirtio_en_oportunidad_de_venta",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_627A8F210F9D9": {
+    "name": "Fecha_de_ultima_vista",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_627A8F2136C47": {
+    "name": "Conversion_reciente",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F21B0D2B": {
+    "name": "Prioridad_de_contacto",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F21BFBEA": {
+    "name": "Resultado_de_llamada",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F21EBA9F": {
+    "name": "Urgencia_de_compra",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F22064DD": {
+    "name": "Motivo_de_descarte",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F2215F9E": {
+    "name": "Registro_de_visita",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F2224AD8": {
+    "name": "Es_inversionista_recurrente",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F2233183": {
+    "name": "Tipo_de_Propiedad",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627A8F2251965": {
+    "name": "Habitaciones",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627B7E27D4B32": {
+    "name": "Numero_de_actividades_de_ventas",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_627B7E28163B4": {
+    "name": "Valor_del_inmueble",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_627B7E283051D": {
+    "name": "Ingresos_mensuales",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1652261686424": {
+    "name": "Valor_de_la_Comision_para_GoJom",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1652262298363": {
+    "name": "Numero_de_actividades_de_ventas2",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1652262315467": {
+    "name": "Numero_de_veces_contactado",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_1652262596": {
+    "name": "Numero_de_vistas_de_pagina",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B423036B": {
+    "name": "Motivo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B423D4F9": {
+    "name": "Fecha_de_Visita_agendada",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62869B424A40F": {
+    "name": "Fecha_de_visita_realizada",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62869B426456F": {
+    "name": "Con_quien_toma_la_decision",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4271512": {
+    "name": "Tiene_la_cuota_inicial",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4282B83": {
+    "name": "Ahorro_Recursos_propios",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4291A53": {
+    "name": "Cesantias",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B429F0A1": {
+    "name": "Tiene_un_credito",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B42AE812": {
+    "name": "Banco_o_empresa_del_credito",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B42BC14F": {
+    "name": "Credito_pre_aprobado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B42CB696": {
+    "name": "Info_adicional",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B42D9027": {
+    "name": "Disponibilidad_para_la_visita",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B42E6312": {
+    "name": "Quiero_que_me_llamen",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4300EB8": {
+    "name": "Pais_region_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4310D61": {
+    "name": "Ciudad",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B43213CA": {
+    "name": "Link_del_Anuncio_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4333891": {
+    "name": "Contact_ID",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B435009C": {
+    "name": "LOCALIDAD",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1651644279452": {
+    "name": "Con_quien_busca",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B435DA41": {
+    "name": "Desglose_de_fuente_original_1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B436B30C": {
+    "name": "Desglose_de_fuente_original_2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4378A21": {
+    "name": "Dominio_de_correo_electronico",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B438755E": {
+    "name": "Fuente_mas_reciente",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4394C27": {
+    "name": "Fecha_de_primera_vista",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "UF_CRM_62869B43A2715": {
+    "name": "Fecha_de_Ultimo_Lead",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "UF_CRM_62869B43AFCB0": {
+    "name": "Presup_Maximo",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_62869B43BD3AC": {
+    "name": "Antiguedad_en_anos",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_62869B43CA32C": {
+    "name": "Area_m2",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_62869B43D7C5E": {
+    "name": "Cantidad_de_sesiones",
+    "mode": "NULLABLE",
+    "type": "NUMERIC",
+    "fields": {}
+  },
+  "UF_CRM_62869B43E4878": {
+    "name": "Cantidad_de_Leads",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B43F18A6": {
+    "name": "Capacidad_de_pago_mensual",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B440A5D5": {
+    "name": "Probabilidad_de_cierre",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4416DCD": {
+    "name": "Tipo_de_credito",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4423C27": {
+    "name": "Origen_del_lead_1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B443243C": {
+    "name": "Origen_del_lead_2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4441290": {
+    "name": "Ubigeo_1",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B444DD05": {
+    "name": "Ubigeo_2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B445AAC7": {
+    "name": "Ubigeo_3",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B44674DB": {
+    "name": "Ubigeo_4_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B44837E2": {
+    "name": "Habitaciones2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62869B4493131": {
+    "name": "Presupuesto_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6286A01A05FEA": {
+    "name": "Fuente_original",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628BE1BCBC70A": {
+    "name": "Banos",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628BE1BCCD528": {
+    "name": "Parqueaderos",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628BE1BCDC45A": {
+    "name": "Preferencia_de_pisos",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1653393622": {
+    "name": "Deal_ID2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1653393640": {
+    "name": "Correo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1653393664": {
+    "name": "Associated_Contact_IDs2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628E4EF3BFC80": {
+    "name": "Worktime",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628E4EF3D24EF": {
+    "name": "Presupuesto_vivienda_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628E4EF3E2F97": {
+    "name": "Habitaciones_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628E4EF3F3AE7": {
+    "name": "UTM_campaign_fb",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_628E4EF4212C2": {
+    "name": "Nombre_del_formulario",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1653660634": {
+    "name": "Perfilador_negocio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6294DDFEE8EF0": {
+    "name": "Expert",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6298BEA5C4BAB": {
+    "name": "Propietario_del_contacto_Hubspot",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6298D6A68EC6F": {
+    "name": "Fecha_de_Ultimo_Lead_Hubspot",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "UF_CRM_6298D6A69C5DF": {
+    "name": "Estado_de_conservacion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1654260847": {
+    "name": "Numero_de_contactos_asociados",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_629A5756B9631": {
+    "name": "Visita_agendada_por_expert",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62A07FC560265": {
+    "name": "Tiempo_entrega_maxima",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62A0D2128D4C5": {
+    "name": "Worktime_hora",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62A529B85B1EA": {
+    "name": "Estado_de_conservacion_FB_nuevo_usado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62AA4FA65B9DA": {
+    "name": "Urgencia_de_compra2",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62AA4FA66F28A": {
+    "name": "Observador_Hubspot",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62B1D774CA015": {
+    "name": "Historial",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62B1D774E94C9": {
+    "name": "Expert_info",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62B48A60CF8AE": {
+    "name": "Exclusivo_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B564C6E7": {
+    "name": "Urgencia_de_compra_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B5694AFC": {
+    "name": "Ubigeo_4",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B56DA2ED": {
+    "name": "Origen_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B5728CF7": {
+    "name": "Link_del_anuncio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B576D036": {
+    "name": "Link_al_anunciante",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B57AF138": {
+    "name": "Exclusivo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB1B57EF281": {
+    "name": "Pais_region",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB4162F1CAA": {
+    "name": "UTM_Source_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB416345465": {
+    "name": "UTM_Medium_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB4163C77A5": {
+    "name": "UTM_Content_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BB41641429F": {
+    "name": "UTM_Term_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62BC90C598113": {
+    "name": "Origen_lista",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1657032691": {
+    "name": "Nombre_de_Constructora_Inmobiliaria",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62C4A97D5EAA2": {
+    "name": "Equipo_prospectos",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1657141260": {
+    "name": "Contrato_firmado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1657295798": {
+    "name": "Comision_compartida",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1657546220": {
+    "name": "Valor_negocio_reporte",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1657546247": {
+    "name": "Valor_comision_reporte",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62DEAE3B4DF2C": {
+    "name": "Responsable_guardar",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1658965409241": {
+    "name": "Cantidad_de_propiedades",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1658965483347": {
+    "name": "Forma_de_entegracion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1658965576667": {
+    "name": "Esta_entregado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1658965644050": {
+    "name": "Fecha_de_cierre_de_contrato",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "UF_CRM_1659029159": {
+    "name": "Comentarios_Inmueble",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1659213571": {
+    "name": "Num_Identificacion_Cliente",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62E6EAB876BA3": {
+    "name": "Identificacion_del_Cliente_DNI",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62E946E327C2C": {
+    "name": "GoJomPRO",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC761FA64": {
+    "name": "dos_Tiempo_de_pasar_En_seguimiento",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC768356E": {
+    "name": "T_Primera_modificacion",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC76E108B": {
+    "name": "T_En_seguimiento",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC774CD6C": {
+    "name": "T_Perfilado",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC77A8D02": {
+    "name": "T_Agendar_visita_hunter",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC781041B": {
+    "name": "T_Agendar_visita_expert",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC786A635": {
+    "name": "T_Activo",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC78C0936": {
+    "name": "T_Cerrar_prospecto",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC7927DAA": {
+    "name": "uno_Tiempo_primera_modificacion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC7983365": {
+    "name": "tres_Tiempo_perfilado",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62F6AC79E0217/": {
+    "name": "T_Hora_de_asignacion",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62FABF00B4348": {
+    "name": "Piso_Ballesto",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62FABF01201F2": {
+    "name": "Piso_y_Tipo",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1663685058494": {
+    "name": "T_Primera_modificacion__minutos",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "UF_CRM_629A5756C962A": {
+    "name": "Tipo_inmueble_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_629A5756D8F81": {
+    "name": "Tipo_operacion_FB",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "LEAD_ID": {
+    "name": "LEAD_ID",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "ASSIGNED_BY_ID_ID": {
+    "name": "id_responsable",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "OBSERVER_ID": {
+    "name": "id_observador",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_627164E163913_ID": {
+    "name": "id_hunter",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_6294DDFEE8EF0_ID": {
+    "name": "id_expert",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62DEAE3B4DF2C_ID": {
+    "name": "id_responsable_guardar",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_1653660634_ID": {
+    "name": "id_Perfilador_negocio",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62AA4FA66F28A_ID": {
+    "name": "id_Observador_Hubspot",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "UF_CRM_62B1D774E94C9_ID": {
+    "name": "id_Expert_info",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "CREATED_BY_ID_ID": {
+    "name": "id_Creado_por",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "MOVED_BY_ID_ID": {
+    "name": "id_Modificado_por",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  }
+}

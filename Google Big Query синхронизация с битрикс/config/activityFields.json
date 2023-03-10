@@ -1,0 +1,50 @@
+{
+  "OWNER_ID": {
+    "name": "ID_DEAL",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "STATUS": {
+    "name": "ESTADO_DE_LEAD",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "RESPONSIBLE_NAME": {
+    "name": "RESPONSABLE",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "RESPONSIBLE_ID": {
+    "name": "ID_DE_RESPONSABLE",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "TYPE_NAME": {
+    "name": "TIPO_DE_ACTIVIDAD",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": {}
+  },
+  "LAST_UPDATED": {
+    "name": "FECHA_Y_HORA",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": {}
+  },
+  "CREATED": {
+    "name": "FECHA_DE_CREACION",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  },
+  "DEADLINE": {
+    "name": "FECHA_DE_CIERRE",
+    "mode": "NULLABLE",
+    "type": "DATE",
+    "fields": {}
+  }
+}
