@@ -1,0 +1,12 @@
+#spinner-load{
+    height: 100vh;
+    position: fixed;
+    z-index: 3000;
+    background: #ffffffa3;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#spinner-load .spinner-border.text-warning{
+    color: #f4765a !important;
+}

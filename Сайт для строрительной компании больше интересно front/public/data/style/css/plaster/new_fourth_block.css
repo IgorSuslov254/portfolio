@@ -1,0 +1,631 @@
+/*************************************/
+/********new fourth block*************/
+/*************************************/
+/* title */
+#new_fourth_block > div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#new_fourth_block h1{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    color: var(--color-black);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#new_fourth_block h2{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*title right*/
+#new_fourth_block .title-right > div:nth-child(1) > div > div{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-black);
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    padding: 0.75rem 0;
+    cursor: pointer;
+}
+#new_fourth_block .title-right > div:nth-child(1) > div > div.active{
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    color: white;
+}
+#new_fourth_block .title-right > div:nth-child(2) > div > div{
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    border-radius: 45px;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 35px;
+}
+#new_fourth_block .title-right > div:nth-child(2) > div > div > span{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+#new_fourth_block .title-right > div:nth-child(2) > div > div > span.active{
+    color: var(--color-black);
+}
+
+/*body*/
+#new_fourth_block .body{
+    box-shadow: 0px 0px 61px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    margin: 60px 0 0 0;
+    padding: 3rem 2rem;
+}
+#new_fourth_block .body > div:nth-child(1) > div{
+    max-width: 121px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto auto 1.2rem auto;
+
+    width: 121px;
+    height: 106.583px;
+}
+#new_fourth_block .body > .col-lg-3 button.btn-warning{
+    top: -1.2rem;
+}
+#new_fourth_block .body > div:nth-child(1) > div.active{
+    border: 3px solid #fb8c4b;
+}
+#new_fourth_block .body > div:nth-child(1) .mask{
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    opacity: 0.68;
+    max-width: 121px;
+    margin: auto;
+}
+
+#new_fourth_block .body > .col-lg-3 > h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--color-black);
+}
+#new_fourth_block .body > .col-lg-3 > h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(28, 28, 29, 0.5);
+    margin-top: 20px;
+}
+#new_fourth_block .body > .col-lg-3 > ul{
+    margin-top: 35px;
+}
+#new_fourth_block .body > .col-lg-3 > ul > li{
+    list-style-type: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-black);
+}
+#new_fourth_block .body > .col-lg-3 > ul > li:not(
+    #new_fourth_block .body > .col-lg-3 > ul > li:nth-child(1)
+){
+    margin-top: 23px;
+}
+#new_fourth_block .body > .col-lg-3 > ul > li > svg{
+    position: absolute;
+    margin-left: -2rem;
+}
+#new_fourth_block .body > .col-lg-3 button.btn-warning{
+    background: rgba(0, 0, 0, 0) linear-gradient(269.87deg, rgb(252, 143, 73) 1.22%, rgb(238, 100, 102) 99.9%) repeat scroll 0% 0%;
+    border-radius: 52px;
+    text-transform: none;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    padding: 1.2rem 0px;
+    position: relative;
+}
+
+/*carousel*/
+#new_fourth_block .body .carousel-item{
+    height: 607.533px;
+}
+#new_fourth_block .body .carousel img{
+    border-radius: 10px;
+}
+#new_fourth_block .body .carousel-control-next,
+#new_fourth_block .body .carousel-control-prev{
+    background: white;
+    width: 48px;
+    height: 48px;
+    margin: auto;
+    opacity: 1;
+    border-radius: 50px;
+}
+#new_fourth_block .body .carousel-control-next{
+    right: 2rem;
+}
+#new_fourth_block .body .carousel-control-prev{
+    left: 2rem;
+}
+#new_fourth_block .body .carousel-control-next-icon,
+#new_fourth_block .body .carousel-control-prev-icon{
+    color: gray;
+    height: 2.5rem;
+}
+#new_fourth_block .body .carousel-control-next-icon{
+    margin-right: -3px;
+}
+#new_fourth_block .body .carousel-control-prev-icon{
+    margin-left: -3px;
+}
+
+
+@media screen and (max-width: 1750px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+    #new_fourth_block h1 {
+        font-size: 40px;
+    }
+    #new_fourth_block h2 {
+        font-size: 17px;
+    }
+
+    #new_fourth_block .body > div:nth-child(1) > div{
+        max-width: 101px;
+        width: 101px;
+        height: 88.4333px;
+    }
+
+    #new_fourth_block .body .carousel-item{
+        height: 515.717px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #new_fourth_block .body > div:nth-child(1) > div{
+        margin-bottom: 0.5rem;
+        max-width: 89px;
+
+        width: 89px;
+        height: 77.9333px;
+    }
+    #new_fourth_block .body > .col-lg-3 button.btn-warning{
+        top: -0.5rem;
+        padding: .8rem 0px;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul {
+        margin-top: 1rem;
+    }
+    #new_fourth_block .body .carousel-item{
+        height: 423.867px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #new_fourth_block h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 25px !important;
+    }
+
+    #new_fourth_block > div{
+        margin: 60px auto;
+    }
+
+    #new_fourth_block .title-right{
+        margin-top: 30px;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div > div{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 0;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(1) > div svg{
+        width: 14.4px;
+        height: 20.88px;
+        margin-right: 5px !important;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(2) > div svg{
+        width: 23px;
+        height: 20.83px;
+        margin-right: 5px !important;
+    }
+
+    #new_fourth_block .title-right > div:nth-child(2) > div > div{
+        margin-top: 20px;
+        padding: 7.7px 0;
+    }
+    #new_fourth_block .title-right > div:nth-child(2) > div > div > span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 5px;
+    }
+    #new_fourth_block .body{
+        box-shadow: none;
+        padding: 0;
+        margin: 30px 0 0 0;
+        border-radius: 0;
+    }
+    #new_fourth_block .body > div:nth-child(1){
+        order: 2;
+        margin-top: 30px;
+        display: flex;
+    }
+    #new_fourth_block .body > div:nth-child(2){
+        order: 1;
+    }
+    #new_fourth_block .body > .col-lg-3{
+        order: 3;
+        margin-top: 40px;
+    }
+    #new_fourth_block .body .carousel-control-prev{
+        left: 5px;
+    }
+    #new_fourth_block .body .carousel-control-next{
+        right: 5px;
+    }
+    #new_fourth_block .body .carousel-control-prev-icon{
+        margin-left: -1px;
+    }
+    #new_fourth_block .body .carousel-control-next-icon{
+        margin-right: -1px;
+    }
+    #new_fourth_block .body .carousel-control-next-icon, #new_fourth_block .body .carousel-control-prev-icon{
+        height: 29px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        width: 126px;
+        height: 95px;
+        margin: 0;
+    }
+    #new_fourth_block .body > .col-lg-3 button.btn-warning{
+        top: 0rem;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div,
+    #new_fourth_block .body > div:nth-child(1) .mask{
+        max-width: 126px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        margin-left: 10px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div:nth-child(5n+1){
+        margin-left: 0px !important;
+    }
+    #new_fourth_block .body > .col-lg-3 > h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #new_fourth_block .body > .col-lg-3 > h4{
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul{
+        margin: 35px 0;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li:not(#new_fourth_block .body > .col-lg-3 > ul > li:nth-child(1)){
+        margin-top: 20px;
+    }
+
+    #new_fourth_block .carousel-control-next-icon::after,
+    #new_fourth_block .carousel-control-prev-icon::after{
+        font-size: 19px !important;
+    }
+
+    #new_fourth_block .body .carousel-item{
+        height: 587.717px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #new_fourth_block h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 25px !important;
+    }
+
+    #new_fourth_block > div{
+        margin: 60px auto;
+    }
+
+    #new_fourth_block .title-right{
+        margin-top: 30px;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div > div{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 9px 0;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(1) > div svg{
+        width: 12.4px;
+        height: 17.88px;
+        margin-right: 5px !important;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(2) > div svg{
+        width: 19px;
+        height: 16.83px;
+        margin-right: 5px !important;
+    }
+
+    #new_fourth_block .title-right > div:nth-child(2) > div > div{
+        margin-top: 20px;
+        padding: 4.7px 0;
+        margin-right: -12px;
+    }
+    #new_fourth_block .title-right > div:nth-child(2) > div > div > span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0 5px;
+    }
+    #new_fourth_block .body{
+        box-shadow: none;
+        padding: 0;
+        margin: 30px 0 0 0;
+        border-radius: 0;
+    }
+    #new_fourth_block .body > div:nth-child(1){
+        order: 2;
+        margin-top: 15px;
+        display: flex;
+    }
+    #new_fourth_block .body > div:nth-child(2){
+        order: 1;
+    }
+    #new_fourth_block .body > .col-lg-3{
+        order: 3;
+        margin-top: 20px;
+    }
+    #new_fourth_block .body .carousel-control-prev{
+        left: 5px;
+    }
+    #new_fourth_block .body .carousel-control-next{
+        right: 5px;
+    }
+    #new_fourth_block .body .carousel-control-prev-icon{
+        margin-left: -1px;
+    }
+    #new_fourth_block .body .carousel-control-next-icon{
+        margin-right: -1px;
+    }
+    #new_fourth_block .body .carousel-control-next-icon, #new_fourth_block .body .carousel-control-prev-icon{
+        height: 29px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        width: 90px;
+        height: 68px;
+        margin: 0;
+        max-width: 90px;
+    }
+    #new_fourth_block .body > .col-lg-3 button.btn-warning{
+        top: 0rem;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        margin-left: 10px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div:nth-child(5n+1){
+        margin-left: 0px !important;
+    }
+    #new_fourth_block .body > .col-lg-3 > h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #new_fourth_block .body > .col-lg-3 > h4{
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul{
+        margin: 35px 0;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li:not(#new_fourth_block .body > .col-lg-3 > ul > li:nth-child(1)){
+        margin-top: 20px;
+    }
+
+    #new_fourth_block .carousel-control-next-icon::after,
+    #new_fourth_block .carousel-control-prev-icon::after{
+        font-size: 19px !important;
+    }
+
+    #new_fourth_block .body .carousel-item{
+        height: 430.283px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #new_fourth_block h1 {
+        font-weight: 400;
+        font-size: calc(25px - 1.7px + (100vw - 320px) * 0.1);
+        line-height: calc(30px - 1.7px + (100vw - 320px) * 0.1);
+    }
+    #new_fourth_block h2 {
+        font-weight: 400;
+        font-size: calc(16px - 1px + (100vw - 320px) * 0.06);
+        line-height: calc(19px - 1px + (100vw - 320px) * 0.06);
+        margin-top: calc(25px + (100vw - 320px) * 0.1) !important;
+    }
+
+    #new_fourth_block > div{
+        margin: calc(60px + (100vw - 320px) * 0.1) 0;
+    }
+
+    #new_fourth_block .title-right{
+        margin-top: calc(30px + (100vw - 320px) * 0.1);
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div > div{
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(10px + (100vw - 320px) * 0.03);
+        line-height: calc(12px + (100vw - 320px) * 0.03);
+        padding: calc(9px - 1px + (100vw - 320px) * 0.03) 0;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(1) > div svg{
+        width: calc(12.4px + (100vw - 320px) * 0.03);
+        height: calc(17.88px + (100vw - 320px) * 0.03);
+        margin-right: 5px !important;
+    }
+    #new_fourth_block .title-right > div:nth-child(1) > div:nth-child(2) > div svg{
+        width: calc(19px + (100vw - 320px) * 0.03);
+        height: calc(16.83px + (100vw - 320px) * 0.03);
+        margin-right: 5px !important;
+    }
+
+    #new_fourth_block .title-right > div:nth-child(2) > div > div{
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+        padding: calc(4.7px + (100vw - 320px) * 0.04) 0;
+        border-radius: 45px 0 0 45px;
+        margin-right: -12px;
+    }
+    #new_fourth_block .title-right > div:nth-child(2) > div > div > span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(12px + (100vw - 320px) * 0.03);
+        line-height: calc(15px + (100vw - 320px) * 0.03);
+        margin: 0 5px;
+    }
+    #new_fourth_block .body{
+        box-shadow: none;
+        padding: 0;
+        margin: calc(30px + (100vw - 320px) * 0.1) 0 0 0;
+        border-radius: 0;
+    }
+    #new_fourth_block .body > div:nth-child(1){
+        order: 2;
+        margin-top: calc(15px + (100vw - 320px) * 0.1);
+        display: flex;
+    }
+    #new_fourth_block .body > div:nth-child(2){
+        order: 1;
+    }
+    #new_fourth_block .body > .col-lg-3{
+        order: 3;
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+    }
+    #new_fourth_block .body .carousel-control-next, #new_fourth_block .body .carousel-control-prev{
+        width: 30px;
+        height: 30px;
+        opacity: 0.72;
+    }
+    #new_fourth_block .body .carousel-control-prev{
+        left: 5px;
+    }
+    #new_fourth_block .body .carousel-control-next{
+        right: 5px;
+    }
+    #new_fourth_block .body .carousel-control-prev-icon{
+        margin-left: -1px;
+    }
+    #new_fourth_block .body .carousel-control-next-icon{
+        margin-right: -1px;
+    }
+    #new_fourth_block .carousel-control-next-icon::after,
+    #new_fourth_block .carousel-control-prev-icon::after{
+        font-size: 15px !important;
+    }
+    #new_fourth_block .body .carousel-control-next-icon, #new_fourth_block .body .carousel-control-prev-icon{
+        height: 24px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div:nth-child(5n){
+        display: none;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        max-width: none;
+    }
+    #new_fourth_block .body > .col-lg-3 button.btn-warning{
+        top: 0rem;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div{
+        margin-left: 10px;
+    }
+    #new_fourth_block .body > div:nth-child(1) > div:nth-child(5n+1){
+        margin-left: 0px !important;
+    }
+    #new_fourth_block .body > .col-lg-3 > h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(20px + (100vw - 320px) * 0.05);
+        line-height: calc(25px + (100vw - 320px) * 0.05);
+    }
+    #new_fourth_block .body > .col-lg-3 > h4{
+        margin-top: calc(20px + (100vw - 320px) * 0.05);
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(18px + (100vw - 320px) * 0.05);
+    }
+    #new_fourth_block .body > .col-lg-3 > ul{
+        margin: calc(35px + (100vw - 320px) * 0.05) 0;
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li{
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(20px + (100vw - 320px) * 0.05);
+        margin-left: calc(5px + (100vw - 320px) * 0.05);
+    }
+    #new_fourth_block .body > .col-lg-3 > ul > li:not(#new_fourth_block .body > .col-lg-3 > ul > li:nth-child(1)){
+        margin-top: calc(20px + (100vw - 320px) * 0.05);
+    }
+
+    #new_fourth_block .body > .col-lg-3 > ul > li > svg{
+        width: calc(24px + (100vw - 320px) * 0.05);
+        height: calc(24px + (100vw - 320px) * 0.05);
+        margin-left: calc( (2rem + (100vw - 320px) * 0.1) * -1);
+    }
+
+    #new_fourth_block .body > .col-lg-3 button.btn-warning{
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(20px + (100vw - 320px) * 0.05);
+        padding: calc(.8rem + (100vw - 320px) * 0.05) 0px;
+    }
+
+    #new_fourth_block .body .carousel-item{
+        height: calc(237.883px + (100vw - 320px) * 0.87467);
+    }
+}

@@ -1,0 +1,223 @@
+#bestPriceGuarantee{
+    background: var(--color-black);
+    color: white;
+    padding: 100px 0;
+}
+#bestPriceGuarantee > div > form{
+    margin-top: 80px;
+}
+#bestPriceGuarantee h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#bestPriceGuarantee h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 2rem;
+}
+#bestPriceGuarantee label{
+    display: block;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+#bestPriceGuarantee input{
+    font-family: 'Gilroy';
+    box-shadow: 0px 9px 20px rgba(238, 102, 100, 0.52);
+    border-radius: 43px;
+    margin-top: .5rem;
+    width: 100%;
+    border: none;
+    color: var(--color-black);
+    padding: .8rem 1rem;
+    font-size: 22px;
+    cursor: pointer;
+    background: white;
+    text-align: center;
+}
+#bestPriceGuarantee input::placeholder{
+    color: rgba(125, 130, 142, 0.5);
+}
+#bestPriceGuarantee #bestPriceGuaranteeFile{
+    margin-top: 1.8rem;
+}
+#bestPriceGuarantee #bestPriceGuaranteePhone:focus-visible{
+    outline: none;
+    color: var(--color-black);
+}
+#bestPriceGuarantee button.btn-warning{
+    background: rgba(0, 0, 0, 0) linear-gradient(269.87deg, rgb(252, 143, 73) 1.22%, rgb(238, 100, 102) 99.9%) repeat scroll 0% 0%;
+    border-radius: 52px;
+    text-transform: none;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    padding: 1.4rem 0px;
+    margin-top: 1.8rem;
+}
+
+#bestPriceGuarantee label[for="bestPriceGuaranteeFile"]{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 20px rgba(238, 102, 100, 0.52);
+    border-radius: 43px;
+    text-align: center;
+    padding: 17.4px 40px;
+    color: rgba(125, 130, 142, 0.3);
+    margin-top: .5rem;
+}
+
+#bestPriceGuarantee label[for="bestPriceGuaranteeFile"] svg{
+    width: 36px;
+    height: 33px;
+    position: absolute;
+    margin-left: -45px;
+    transform: matrix(1, 0.05, -0.04, 1, 0, 0);
+    margin-top: -4px;
+}
+
+
+
+@media screen and (max-width: 1750px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+    #bestPriceGuarantee h1 {
+        font-size: 40px;
+    }
+    #bestPriceGuarantee h2 {
+        font-size: 17px;
+    }
+
+    #bestPriceGuarantee button.btn-warning{
+        min-width: fit-content;
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #bestPriceGuarantee button.btn-warning{
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #bestPriceGuarantee button.btn-warning{
+        max-width: none;
+    }
+    #bestPriceGuarantee > div > form > div:nth-child(2){
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bestPriceGuarantee button.btn-warning{
+        max-width: none;
+    }
+    #bestPriceGuarantee > div > form > div:nth-child(2){
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #bestPriceGuarantee h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(25px - 1.7px + (100vw - 320px) * 0.1);
+        line-height: calc(30px - 1.7px + (100vw - 320px) * 0.1);
+        text-align: left;
+    }
+    #bestPriceGuarantee h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(16px - 1px + (100vw - 320px) * 0.06);
+        line-height: calc(19px - 1px + (100vw - 320px) * 0.06);
+        text-align: left;
+        margin-top: calc(25px + (100vw - 320px) * 0.1) !important;
+    }
+
+    #bestPriceGuarantee{
+        padding: calc(60px + (100vw - 320px) * 0.1) 0;
+    }
+    #bestPriceGuarantee > div > form{
+        margin-top: calc(30px + (100vw - 320px) * 0.1);
+    }
+    #bestPriceGuarantee label,
+    #bestPriceGuarantee .bestPriceGuaranteeFileLabel{
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(12px + (100vw - 320px) * 0.05);
+        line-height: calc(14px + (100vw - 320px) * 0.05);
+        color: #7D828E;
+    }
+    #bestPriceGuarantee .bestPriceGuaranteeFileLabel{
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+    }
+
+    #bestPriceGuarantee label[for="bestPriceGuaranteeFile"]{
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(19px + (100vw - 320px) * 0.05);
+        background: #FFFFFF;
+        box-shadow: 0px 9px 20px rgba(238, 102, 100, 0.52);
+        border-radius: 43px;
+        text-align: center;
+        padding: calc(16px + (100vw - 320px) * 0.055) 0;
+        color: rgba(125, 130, 142, 0.3);
+        margin-top: .5rem;
+    }
+
+    #bestPriceGuarantee label[for="bestPriceGuaranteeFile"] svg{
+        width: calc(31px + (100vw - 320px) * 0.05);
+        height: calc(28px + (100vw - 320px) * 0.05);
+        position: absolute;
+        margin-left: calc( (35px + (100vw - 320px) * 0.1) * -1 );
+        transform: matrix(1, 0.05, -0.04, 1, 0, 0);
+        margin-top: calc( (4px + (100vw - 320px) * 0.01) * -1 );
+    }
+
+    #bestPriceGuarantee input{
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(16px + (100vw - 320px) * 0.0875);
+        line-height: calc(19px + (100vw - 320px) * 0.0875);
+        height: calc(51px + (100vw - 320px) * 0.15);
+        color: rgba(125, 130, 142, 0.3);
+        padding: calc(16px + (100vw - 320px) * 0.05) 20px;
+    }
+    #bestPriceGuarantee > div > form > div:nth-child(2){
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+    }
+    #bestPriceGuarantee #bestPriceGuaranteeFile {
+        margin-top: calc(21px + (100vw - 320px) * 0.05);
+    }
+    #bestPriceGuarantee button.btn-warning{
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+        font-style: normal;
+        font-weight: 900;
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(20px + (100vw - 320px) * 0.05);
+        padding: calc(15.5px + (100vw - 320px) * 0.05) 0;
+    }
+}

@@ -1,0 +1,162 @@
+/*************************************/
+/*********third block next************/
+/*************************************/
+/* title */
+#third_block_next{
+    padding-bottom: 100px;
+}
+#successCallbackModal #third_block_next{
+    padding-bottom: 0px;
+}
+
+#third_block_next .tbnTitle{
+    padding: 100px 0 45px 0;
+}
+#successCallbackModal #third_block_next .tbnTitle{
+    padding: 0px 0 45px 0;
+}
+
+#third_block_next{
+	background: rgba(28, 28, 29, 1);
+
+}
+#third_block_next h1{
+	font-family: 'Gilroy';
+	color: white;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#third_block_next h2{
+	font-family: 'Gilroy';
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+}
+
+#third_block_next form input[type="text"]{
+	width: 100%;
+	box-shadow: 0px 9px 20px 0px rgba(238, 102, 100, 0.52);
+	border-radius: 43px;
+	border: none;
+	color: var(--color-black);
+	margin: .5rem 0 2rem 0;
+	padding: .83rem 1rem;
+	font-size: 22px;
+}
+#third_block_next form input[type="text"]::placeholder{
+    color: rgba(125, 130, 142, 0.5);
+}
+#third_block_next form input[type="text"]:focus-visible{
+	transition: .3s;
+	outline: none;
+	color: var(--color-black);
+}
+#third_block_next form .btn-warning{
+	font-family: 'Gilroy';
+	font-size: 16px;
+	text-transform: unset;
+	background: var(--color_default);
+	width: 100%;
+	padding: 1.11rem 0;
+	font-weight: 900;
+}
+
+#fb_personal_data{
+	float: none;
+	background: none;
+}
+#fb_personal_data:focus::after{
+	background: none;
+}
+#fb_personal_data:focus::before {
+	box-shadow: 0 0 0 13px #f16e60;
+}
+#fb_personal_data:checked,
+#fb_personal_data:checked:focus{
+	border-color: #f2715d;
+}
+#third_block_next form{
+	font-family: 'Gilroy';
+}
+
+@media screen and (max-width: 1750px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+	#third_block_next h1 {
+		font-size: 40px;
+	}
+	#third_block_next h2 {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+	#third_block_next h1 {
+        font-weight: 400;
+        font-size: calc(25px - 1.7px + (100vw - 320px) * 0.1);
+        line-height: calc(30px - 1.7px + (100vw - 320px) * 0.1);
+        text-transform: uppercase;
+	}
+    #successCallbackModal #third_block_next h1 {
+        text-align: center;
+    }
+	#third_block_next h2 {
+        font-weight: 400;
+        font-size: calc(16px - 1px + (100vw - 320px) * 0.06);
+        line-height: calc(19px - 1px + (100vw - 320px) * 0.06);
+        margin-top: calc(25px + (100vw - 320px) * 0.1);
+	}
+    #successCallbackModal #third_block_next h2 {
+        text-align: center;
+    }
+	#third_block_next form input[type="text"],
+	#third_block_next form .btn-warning{
+        font-size: calc(16px + (100vw - 320px) * 0.0875);
+        line-height: calc(19px + (100vw - 320px) * 0.0875);
+        height: calc(51px + (100vw - 320px) * 0.15);
+	}
+    #third_block_next form input[type="text"]{
+        padding: calc(11px + (100vw - 320px) * 0.05) 0px;
+        margin: 0px;
+    }
+    #third_block_next form .btn-warning{
+        margin-top: calc(25px + (100vw - 320px) * 0.05) !important;
+        padding: calc(11px + (100vw - 320px) * 0.05) 0px;
+    }
+    #third_block_next form .btn-warning svg{
+        width: calc(25px + (100vw - 320px) * 0.07);
+        height: calc(25px + (100vw - 320px) * 0.07);
+    }
+    #third_block_next form label{
+        font-size: calc(8px + (100vw - 320px) * 0.02);
+    }
+    #fb_personal_data{
+        width: 24px;
+        height: 21px;
+        border-radius: 6px;
+    }
+    .form-check-input[type="checkbox"]:checked::after{
+        width: 8px;
+        height: 14px;
+        margin-left: 6px;
+    }
+
+    #third_block_next{
+        padding-bottom: calc(60px + (100vw - 320px) * 0.1);
+    }
+
+    #third_block_next .tbnTitle {
+        padding: calc(60px + (100vw - 320px) * 0.1) 0 calc(30px + (100vw - 320px) * 0.1) 0;
+    }
+}

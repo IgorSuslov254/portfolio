@@ -1,0 +1,423 @@
+/*************************************/
+/*************fifth block*************/
+/*************************************/
+/* title */
+#fifth_block .video,
+#fifth_block .text{
+    margin-top: 115px;
+}
+
+#fifth_block .fb_title_bottom{
+    margin-top: 125px;
+}
+
+#fifth_block h1{
+	font-family: 'Gilroy';
+	font-weight: 400;
+	color: white;
+	font-size: 50px;
+    text-transform: uppercase;
+}
+#fifth_block h2{
+	font-family: 'Gilroy';
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+}
+#fifth_block .btn-light{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    width: 100%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-black);
+    text-transform: none;
+    padding: 0.96rem 0px;
+}
+
+#fifth_block{
+	background: var(--color_default);
+	padding-bottom: 20rem;
+    padding-top: 100px;
+}
+#fifth_block .underline{
+	background: white;
+}
+#fifth_block .multi-carousel .multi-carousel-inner{
+	width: 90%;
+	margin: auto;
+}
+#fifth_block .multi-carousel-item > div{
+	box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+	background: white;
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 1.9rem;
+}
+#fifth_block .multi-carousel-item iframe{
+	width: 100%;
+	height: 250px;
+	border-radius: 10px;
+}
+#fifth_block .multi-carousel-item h3{
+	color: rgba(2, 2, 2, 1);
+	font-weight: 700;
+	font-size: 16px;
+	white-space: normal;
+}
+#fifth_block .multi-carousel-item p{
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(2, 2, 2);
+	white-space: normal;
+	line-height: 16px;
+}
+#fifth_block .carousel-control-next,
+#fifth_block .carousel-control-prev{
+	opacity: 1;
+}
+#fifth_block .carousel-control-prev{
+	justify-content: flex-start;
+}
+#fifth_block .carousel-control-next{
+	justify-content: flex-end;
+}
+
+#fifth_block hr{
+	margin: 3.2rem 0 1rem 0;
+	height: 3px;
+	color: white;
+	opacity: 1;
+}
+
+/* review_carousel */
+#fifth_block #review_carousel,
+#fifth_block #youtube_carousel{
+	font-family: 'Gilroy';
+}
+#fifth_block #review_carousel p{
+	color: rgba(2, 2, 2, 1);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+}
+#fifth_block #review_carousel span:not(
+	#fifth_block #review_carousel .carousel-control-prev-icon,
+	#fifth_block #review_carousel .carousel-control-next-icon
+){
+	font-weight: 400;
+	font-size: 12px;
+	color: rgba(2, 2, 2, 0.5);
+}
+
+#fifth_block .spinner-border{
+	position: absolute;
+	margin: 10% 0 0 19.5%;
+	color: #fa894d !important;
+}
+
+/* title bottom */
+/* .fb_title_bottom h2 > span{
+	text-decoration: underline;
+} */
+.fb_title_bottom > div:nth-child(2) > p:nth-child(1){
+	font-family: Gilroy;
+	font-size: 167px;
+	font-weight: 900;
+	line-height: 167px;
+	letter-spacing: 0em;
+	color: white;
+}
+.fb_title_bottom > div:nth-child(2) > p:nth-child(2){
+	color: white;
+	/* text-decoration: underline; */
+}
+/* #fifth_block:after{
+	content: '4387';
+	color: #ffffff73;
+	position: absolute;
+	font-weight: 900;
+	font-size: calc(1em + 41vw);
+	width: 100%;
+	margin-top: -0.95em;
+} */
+
+#fifth_block .fb_title_bottom .default_color{
+    -webkit-text-fill-color: white;
+}
+
+@media screen and (max-width: 1750px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+	#fifth_block h1 {
+		font-size: 40px;
+	}
+	#fifth_block h2 {
+		font-size: 17px;
+	}
+	#fifth_block:after{
+		margin-top: -0.98em;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	/* #fifth_block:after{
+		margin-top: -1.04em;
+	} */
+
+	#fifth_block:after{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 992px){
+    #fifth_block .multi-carousel-item h3{
+        font-size: 12px;
+    }
+    #fifth_block .multi-carousel-item p,
+    #fifth_block #review_carousel p{
+        font-size: 10px;
+    }
+
+    #fifth_block:after{
+        display: none;
+    }
+
+    #fifth_block{
+        padding-top: 60px;
+        padding-bottom: 13rem;
+    }
+    #fifth_block .title-button{
+        margin-top: 25px;
+    }
+    #fifth_block .btn-light{
+        line-height: 12px;
+    }
+    #fifth_block .video, #fifth_block .text{
+        margin-top: 0px;
+    }
+    #fifth_block .multi-carousel-item > div{
+        margin-top: 60px;
+    }
+    #fifth_block .multi-carousel .multi-carousel-inner{
+        width: 100%;
+    }
+    #fifth_block .multi-carousel-item iframe{
+        height: 159px;
+    }
+    #fifth_block .spinner-border {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 64px auto 0;
+    }
+    #fifth_block .carousel-control-next-icon::after,
+    #fifth_block .carousel-control-prev-icon::after{
+        font-size: 27px;
+    }
+    #fifth_block #review_carousel, #fifth_block #youtube_carousel{
+        z-index: 10;
+    }
+    #fifth_block .fb_title_bottom{
+        margin-top: 0px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(1){
+        order: 2;
+        margin-top: 30px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(1){
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 60px;
+        line-height: 76px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(2){
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #fifth_block .multi-carousel-item h3{
+        font-size: 12px;
+    }
+    #fifth_block .multi-carousel-item p,
+    #fifth_block #review_carousel p{
+        font-size: 10px;
+    }
+
+    #fifth_block:after{
+        display: none;
+    }
+
+    #fifth_block{
+        padding-top: 60px;
+        padding-bottom: 13rem;
+    }
+    #fifth_block .title-button{
+        margin-top: 25px;
+    }
+    #fifth_block .btn-light{
+        line-height: 12px;
+    }
+    #fifth_block .video, #fifth_block .text{
+        margin-top: 0px;
+    }
+    #fifth_block .multi-carousel-item > div{
+        margin-top: 60px;
+    }
+    #fifth_block .multi-carousel .multi-carousel-inner{
+        width: 100%;
+    }
+    #fifth_block .multi-carousel-item iframe{
+        height: 159px;
+    }
+    #fifth_block .spinner-border {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 64px auto 0;
+    }
+    #fifth_block .carousel-control-next-icon::after,
+    #fifth_block .carousel-control-prev-icon::after{
+        font-size: 27px;
+    }
+    #fifth_block #review_carousel, #fifth_block #youtube_carousel{
+        z-index: 10;
+    }
+    #fifth_block .fb_title_bottom{
+        margin-top: 0px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(1){
+        order: 2;
+        margin-top: 30px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(1){
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 60px;
+        line-height: 76px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(2){
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .default_color {
+        -webkit-text-fill-color: transparent !important;
+    }
+
+	#fifth_block h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(25px - 5px + (100vw - 320px) * 0.1);
+        line-height: calc(30px - 1.7px + (100vw - 320px) * 0.1);
+	}
+	#fifth_block h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(16px - 1px + (100vw - 320px) * 0.07);
+        line-height: calc(19px - 1px + (100vw - 320px) * 0.06);
+        margin-top: calc(25px + (100vw - 320px) * 0.1) !important;
+	}
+
+	#fifth_block .multi-carousel-item h3{
+		font-size: calc(12px + (100vw - 320px) * 0.05);
+	}
+	#fifth_block .multi-carousel-item p,
+	#fifth_block #review_carousel p{
+		font-size: calc(10px + (100vw - 320px) * 0.05);
+	}
+
+	#fifth_block:after{
+		display: none;
+	}
+
+    #fifth_block{
+        padding-top: calc(60px + (100vw - 320px) * 0.1);
+        padding-bottom: calc(13rem + (100vw - 320px) * 0.1);
+    }
+    #fifth_block .title-button{
+        margin-top: calc(25px + (100vw - 320px) * 0.1);
+    }
+    #fifth_block .btn-light{
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(10px + (100vw - 320px) * 0.05);
+        line-height: calc(12px + (100vw - 320px) * 0.05);
+        padding: calc(11.5px + (100vw - 320px) * 0.05) 0px;
+    }
+    #fifth_block .video, #fifth_block .text{
+        margin-top: 0px;
+    }
+    #fifth_block .multi-carousel-item > div{
+        margin: calc(30px + (100vw - 320px) * 0.1) 24px;
+    }
+    #fifth_block .multi-carousel .multi-carousel-inner{
+        width: 100%;
+    }
+    #fifth_block .multi-carousel-item iframe{
+        height: calc(100vw * 45 / 100);
+    }
+    #fifth_block .spinner-border {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: calc(100vw * 45 / 100 / 2.2) auto 0;
+    }
+    #fifth_block .carousel-control-next-icon::after,
+    #fifth_block .carousel-control-prev-icon::after{
+        font-size: 27px;
+    }
+    #fifth_block #review_carousel, #fifth_block #youtube_carousel{
+        z-index: 10;
+    }
+    #fifth_block .fb_title_bottom{
+        margin-top: 0px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(1){
+        order: 2;
+        margin-top: calc(270px + (100vw - 320px) * 0.1);
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+        background: #0A0907;
+        position: absolute;
+        padding-bottom: calc(50px + (100vw - 320px) * 0.1);
+        margin-top: calc( (151px + (100vw - 320px) * 0.265) * -1);
+        padding-top: calc(190px + (100vw - 320px) * 0.1);
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(1){
+        font-style: normal;
+        font-weight: 1000;
+        font-size: calc(60px + (100vw - 320px) * 0.3);
+        line-height: calc(76px + (100vw - 320px) * 0.3);
+        margin-top: 10px;
+    }
+    #fifth_block .fb_title_bottom > div:nth-child(2) > p:nth-child(2){
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(16px + (100vw - 320px) * 0.06);
+        line-height: calc(19px + (100vw - 320px) * 0.06);
+    }
+}

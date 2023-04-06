@@ -1,0 +1,440 @@
+/*************************************/
+/*************calc block**************/
+/*************************************/
+#calc{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#calc h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+#calc h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+#calc .calc-body{
+    margin-top: 60px;
+}
+#calc .calc-body-calc{
+    background: var(--color-black);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 19px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    width: 790px;
+    margin-left: -130px;
+    padding-left: 140px;
+}
+#calc .calc-body-calc label[for="calcSquare"]{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#calc .calc-body-calc input[type="text"]{
+    border: 2px solid #f3735c;
+    border-radius: 43px;
+    background: var(--color-black);
+    margin-top: 20px;
+    width: 224px;
+    height: 44px;
+    padding: 0 15px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#calc .calc-body-calc input[type="text"]:focus-visible{
+    outline: none;
+}
+#calc .calc-body-price-key,
+#calc .calc-body-price-work{
+    border-left: 1px solid #494949;
+    padding-left: 40px;
+}
+#calc .calc-body-price-work{
+    border-left: 1px solid #f3735c !important;
+}
+#calc .calc-body-price-key p:nth-child(1),
+#calc .calc-body-price-work p:nth-child(1){
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#calc .calc-body-price-key p:nth-child(2),
+#calc .calc-body-price-work p:nth-child(2){
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+#calc .calc-body-price-work p:nth-child(2){
+    color: white !important;
+    margin-top: 15px !important;
+}
+#calc .calc-body-calc > div > div:nth-child(3),
+#calc .calc-body-calc > div > div:nth-child(4){
+    margin-top: 10px;
+}
+#calc .calc-body-calc .form-check{
+    margin-top: 25px;
+}
+#calc .calc-body-calc input[type="checkbox"]{
+    border-radius: 6px;
+}
+#calc .calc-body-calc .form-check-input[type="checkbox"]:checked::after,
+#calc .calc-body-calc .form-check-input::before,
+#calc .calc-body-calc .form-check-input[type="checkbox"]:focus::after{
+    display: none;
+}
+#calc .calc-body-calc .form-check-input[type="checkbox"]:checked {
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    border: none;
+}
+#calc .calc-body-calc .form-check-input[type="checkbox"] + label{
+    opacity: 0.5;
+}
+#calc .calc-body-calc .form-check-input[type="checkbox"]:checked + label{
+    opacity: 1;
+}
+#calc .calc-body-calc .form-check-input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    background: var(--color-black);
+    border: 1px solid #f37759 !important;
+}
+#calc .calc-body-calc .form-check-label{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+#calc .calc-body-calc-error{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+    position: absolute;
+    margin-top: 20px;
+}
+#calc .calc-body-stocks{
+    align-self: center;
+}
+#calc .calc-body-stocks p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(28, 28, 29, 0.5);
+    margin-left: 20px;
+}
+#calc .calc-body-stocks svg{
+    margin-left: 28px;
+}
+#calc .calc-body-stocks > div:nth-child(2){
+    margin-top: 40px;
+}
+#calc form{
+    margin-top: 50px;
+}
+#calc #calcPhone{
+    border: 2px solid #f37759 !important;
+    background: white;
+    width: 370px;
+    height: 62px;
+    border-radius: 43px;
+    color: var(--color-black);
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+#calc #calcPhone::placeholder{
+    color: rgba(125, 130, 142, 0.5);
+}
+#calc #calcPhone:focus-visible{
+    outline: none;
+}
+#calc form .btn-warning{
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    width: 371px;
+    height: 65px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: none;
+}
+#calc form .btn-warning span{
+    margin-left: 5px;
+}
+#calc form .btn-warning.btn-rounded{
+    border-radius: 52px;
+}
+#calc img{
+    position: absolute;
+    z-index: 10;
+    margin-left: -340px;
+    height: 660px;
+    margin-top: -45px;
+}
+
+@media screen and (max-width: 1800px) {}
+@media screen and (max-width: 1400px) {
+    #calc .calc-body-calc{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #calc .calc-body-calc{
+        width: 610px;
+    }
+    #calc .calc-body-stocks p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #calc #calcPhone,
+    #calc form .btn-warning{
+        width: 100%;
+    }
+    #calc img {
+        margin-left: -385px;
+        margin-top: -30px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check-label{
+        margin-left: 5px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 992px) {}
+@media screen and (max-width: 768px) {
+    #calc .calc-body-calc {
+        width: 490px;
+    }
+    #calc .calc-body-calc label[for="calcSquare"] {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #calc .calc-body-calc input[type="text"] {
+        width: 160px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #calc .calc-body-price-key, #calc .calc-body-price-work {
+        padding-left: 20px;
+    }
+    #calc .calc-body-price-key p:nth-child(1), #calc .calc-body-price-work p:nth-child(1) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #calc .calc-body-price-key p:nth-child(2), #calc .calc-body-price-work p:nth-child(2) {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check-input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check-label {
+        margin-left: 2px;
+        margin-top: 0px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check-label {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    #calc .calc-body-calc > div:nth-child(2) .form-check {
+        margin-right: 5px;
+    }
+    #calc .calc-body-stocks svg{
+        margin-left: 0px;
+    }
+    #calc .calc-body-stocks p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #calc #calcPhone,
+    #calc form .btn-warning{
+        height: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #calc {
+        padding-top: calc(60px + (100vw - 320px) * 0.1);
+        padding-bottom: calc(60px + (100vw - 320px) * 0.1);
+    }
+    #calc h1{
+        font-size: calc(25px + (100vw - 320px) * 0.1125);
+        line-height: calc(30px + (100vw - 320px) * 0.1125);
+    }
+    #calc h2 {
+        font-size: calc(16px + (100vw - 320px) * 0.075);
+        line-height: calc(19px + (100vw - 320px) * 0.075);
+        background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+        color: white;
+        width: 100%;
+        padding: 11px 100px 11px 12px;
+        margin-top: calc(30px + (100vw - 320px) * 0.1);
+    }
+    #calc img{
+        height: calc(170px + (100vw - 320px) * 0.45);
+        margin-left: 0;
+        margin-top: -20px;
+        right: 24px;
+    }
+    #calc .calc-body {
+        margin-top: 0px;
+    }
+    #calc .calc-body-calc{
+        margin-left: 0px;
+        padding-left: 12px;
+        width: 100%;
+        border-radius: 0px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    #calc .calc-body-calc label[for="calcSquare"]{
+        display: block;
+        text-align: center;
+        font-size: calc(12px + (100vw - 320px) * 0.0875);
+        line-height: calc(14px + (100vw - 320px) * 0.0875);
+    }
+    #calc .calc-body-calc input[type="text"]{
+        margin-top: calc(15px + (100vw - 320px) * 0.1);
+        width: 100%;
+        font-size: calc(22px + (100vw - 320px) * 0.0875);
+        line-height: calc(26px + (100vw - 320px) * 0.0875);
+        text-align: center;
+        height: calc(44px + (100vw - 320px) * 0.15);
+    }
+    #calc .calc-body-calc > div > div:nth-child(1){
+        order: 1;
+    }
+    #calc .calc-body-calc > div > div:nth-child(2){
+        order: 3;
+        margin-top: calc(90px + (100vw - 320px) * 0.1);
+    }
+    #calc .calc-body-calc > div > div:nth-child(3){
+        order: 2;
+        margin-top: 0px;
+        text-align: center;
+    }
+    #calc .calc-body-calc > div > div:nth-child(4){
+        order: 4;
+        margin-top: calc(90px + (100vw - 320px) * 0.1);
+    }
+    #calc .calc-body-calc .form-check{
+        margin-top: calc(15px + (100vw - 320px) * 0.1);
+    }
+    #calc .calc-body-calc .form-check-label{
+        font-size: calc(8px + (100vw - 320px) * 0.025);
+        line-height: calc(10px + (100vw - 320px) * 0.025);
+        margin-top: calc(6px + (100vw - 320px) * 0.0375);
+    }
+    #calc .calc-body-price-key p:nth-child(1),
+    #calc .calc-body-price-work p:nth-child(1){
+        font-size: calc(12px + (100vw - 320px) * 0.0625);
+        line-height: calc(14px + (100vw - 320px) * 0.0625);
+    }
+    #calc .calc-body-price-key p:nth-child(2),
+    #calc .calc-body-price-work p:nth-child(2) {
+        font-size: calc(20px + (100vw - 320px) * 0.0625);
+        line-height: calc(24px + (100vw - 320px) * 0.0625);
+    }
+    #calc .calc-body-price-key,
+    #calc .calc-body-price-work{
+        padding-left: 15px;
+    }
+    #calc .calc-body-price-key p:nth-child(2),
+    #calc .calc-body-price-work p:nth-child(2){
+        margin-top: calc(10px + (100vw - 320px) * 0.1) !important;
+    }
+    #calc .calc-body-stocks{
+        display: flex;
+        justify-content: space-between;
+    }
+    #calc .calc-body-stocks > div:nth-child(1){
+        margin-top: calc(40px + (100vw - 320px) * 0.1);
+    }
+    #calc .calc-body-stocks > div:nth-child(1) svg{
+        width: calc(32px + (100vw - 320px) * 0.05);
+        height: calc(34px + (100vw - 320px) * 0.05);
+    }
+    #calc .calc-body-stocks > div:nth-child(2) svg{
+        width: calc(35px + (100vw - 320px) * 0.05);
+        height: calc(34px + (100vw - 320px) * 0.05);
+    }
+    #calc .calc-body-stocks p{
+        margin-left: 10px;
+        font-size: calc(12px + (100vw - 320px) * 0.05);
+        line-height: calc(14px + (100vw - 320px) * 0.05);
+    }
+    #calc form{
+        margin-top: calc(45px + (100vw - 320px) * 0.1);
+    }
+    #calc #calcPhone{
+        border: none !important;
+        box-shadow: 0px 9px 20px rgba(238, 102, 100, 0.52);
+        font-size: calc(16px + (100vw - 320px) * 0.0875);
+        line-height: calc(19px + (100vw - 320px) * 0.0875);
+    }
+    #calc form .btn-warning{
+        margin-top: calc(20px + (100vw - 320px) * 0.1);
+        font-size: calc(16px + (100vw - 320px) * 0.0875);
+        line-height: calc(20px + (100vw - 320px) * 0.0875);
+    }
+    #calc #calcPhone, #calc form .btn-warning{
+        height: calc(51px + (100vw - 320px) * 0.15);
+    }
+    #calc form .btn-warning svg{
+        height: 24px;
+        width: 24px;
+    }
+    #calc .calc-body-calc-error{
+        width: calc(100vw - 41px);
+        text-align: center;
+        margin-top: calc((110px + (100vw - 320px) * 0.25) * -1);
+        font-size: calc(15px + (100vw - 320px) * 0.0375);
+        line-height: calc(18px + (100vw - 320px) * 0.0375);
+    }
+}

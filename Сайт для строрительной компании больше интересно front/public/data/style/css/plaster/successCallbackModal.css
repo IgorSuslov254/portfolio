@@ -1,0 +1,88 @@
+#successCallbackModal{
+    z-index: 1200;
+}
+#successCallbackModal .modal-content{
+    background: rgba(28, 28, 29, 0.93);
+    box-shadow: 0px 4px 77px #EE6664;
+    border-radius: 39px !important;
+    text-align: center;
+    padding: 90px 0;
+}
+#successCallbackModal .modal-content > .success > .js-content > p:nth-child(1),
+#successCallbackModal .modal-content > .success > .js-content > p:nth-child(3){
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(50px + 25 * (100vw / 1920));
+    line-height: calc(60px + 25 * (100vw / 1920));
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#successCallbackModal .modal-content > .success > .js-content > p:nth-child(2),
+#successCallbackModal .modal-content > .success > .js-content > p:nth-child(4){
+    margin-top: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + 4 * (100vw / 1920));
+    line-height: calc(24px + 4 * (100vw / 1920));
+    color: #FFFFFF;
+}
+#successCallbackModal .modal-content > .success > .btn-warning{
+    margin-top: 60px;
+    background: linear-gradient(269.87deg, #FC8F49 1.22%, #EE6466 99.9%);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 371px;
+    height: 65px;
+}
+#successCallbackModal .modal-content > .success > .btn-warning.btn-rounded{
+    border-radius: 52px;
+}
+
+@media screen and (max-width: 1750px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    #successCallbackModal .modal-content{
+        padding: 60px 0;
+    }
+    #successCallbackModal .modal-content > .success > .js-content > p:nth-child(1),
+    #successCallbackModal .modal-content > .success > .js-content > p:nth-child(3){
+        font-size: calc(25px + (100vw - 320px) * 0.1);
+        line-height: calc(30px + (100vw - 320px) * 0.1);
+    }
+    #successCallbackModal .modal-content > .success > .js-content > p:nth-child(2),
+    #successCallbackModal .modal-content > .success > .js-content > p:nth-child(4){
+        font-size: calc(16px + (100vw - 320px) * 0.05);
+        line-height: calc(19px + (100vw - 320px) * 0.05);
+    }
+    #successCallbackModal .modal-content > .success > .btn-warning{
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 20px;
+        width: calc(155px + (100vw - 320px) * 0.5);
+        height: calc(51px + (100vw - 320px) * 0.05);
+    }
+}
